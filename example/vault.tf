@@ -4,6 +4,6 @@ providers = {
 }
 
 module "vault" {
-  source = "github.com/ministryofjustice/cloud-platform-terraform-vault?ref=0.0.1"
+  source = "github.com/ministryofjustice/cloud-platform-terraform-vault?ref=v0.0.1"
   namespace = "vault"
 }
