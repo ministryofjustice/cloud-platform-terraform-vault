@@ -1,6 +1,6 @@
-# cloud-platform-terraform-opa
+# cloud-platform-terraform-vault
 
-Terraform module that deploys cloud-platform's open policy agent. It includes all required policies and kubernetes resources in order to get up and running open policy agent in any kops/eks cluster
+Terraform module that deploys cloud-platform's Vault.
 
 ## Usage
 
@@ -15,6 +15,6 @@ module "vault" {
 
 | Name                         | Description                                        | Type | Default | Required |
 |------------------------------|----------------------------------------------------|:----:|:-------:|:--------:|
-| dependence_deploy            | Deploy (helm) dependence variable                  | string   |       | yes |
+| namespace         | Namespace where vault will run                | string   |       | yes |
 
 ## Outputs
