@@ -6,7 +6,7 @@ Terraform module that deploys cloud-platform's Vault.
 
 ```hcl
 module "vault" {
-  source = "github.com/ministryofjustice/cloud-platform-terraform-opa?ref=0.0.1"
+  source = "github.com/ministryofjustice/cloud-platform-terraform-vault?ref=0.0.1"
   namespace = "vault"
 }
 ```
