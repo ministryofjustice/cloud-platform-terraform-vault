@@ -20,13 +20,13 @@ server:
       }
       storage "dynamodb" {
         ha_enabled = "true"
-        region     = "eu-west-1"
+        region     = "eu-west-2"
         table      = "${dynamo_table}"
         access_key = "${dynamo_access_key}"
         secret_key = "${dynamo_secret_key}"
       }
       seal "awskms" {
-        region     = "eu-west-1"
+        region     = "eu-west-2"
         access_key = "${seal_access_key}"
         secret_key = "${seal_secret_key}"
         kms_key_id = "${seal_kms}"
